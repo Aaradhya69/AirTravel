@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+  body{
+    background-image: url(./IMG/Hero.png);
+    background-repeat: no-repeat  ;
+    background-position: center top;
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .nav ul{
+    list-style: none;
+    display: flex;
+  }
+  .nav ul li{
+    padding: 20px;
+    opacity: 0.4;
+  }
+  .head{
+    padding-top: 220px;
+    height: 700px;
+  }
+  .box .inside .a{
+    padding: 25px;
+    border-radius: 0px 20px 20px 20px;
+    border: 1px solid rgba(81, 77, 89, 0.10);
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 0px 0px 0px rgba(81, 77, 89, 0.15), 0px 12px 27px 0px rgba(81, 77, 89, 0.15), 0px 49px 49px 0px rgba(81, 77, 89, 0.13), 0px 110px 66px 0px rgba(81, 77, 89, 0.08), 0px 195px 78px 0px rgba(81, 77, 89, 0.02), 0px 304px 85px 0px rgba(81, 77, 89, 0.00);
+    backdrop-filter: blur(25px);
+  }
+  .box .inside{
+    width: 870px;
+    margin: auto;
+  }
+  .box .inside .a .b{
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 0px rgba(81, 77, 89, 0.15), 0px 12px 27px 0px rgba(81, 77, 89, 0.15), 0px 49px 49px 0px rgba(81, 77, 89, 0.13), 0px 110px 66px 0px rgba(81, 77, 89, 0.08), 0px 195px 78px 0px rgba(81, 77, 89, 0.02), 0px 304px 85px 0px rgba(81, 77, 89, 0.00);
+  }
+  .box .c{
+    background-color: black;
+    color: white;
+    border-radius: 50px 120px 0px 0px;
+    width: 150px;
+    align-items: center;
+  }
+  .box .c h2{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .items{
+    display: flex;
+    align-items: center;
+    margin-top: 35px ;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* padding: 30px; */
+    /* padding-right: 40px; */
+    justify-content: space-between;
+  }
+  .items p{
+    color: rgba(81, 77, 89, 0.80);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+  }
+  .inside{
+    color: #514D59;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .items i{
+    color: #884AFF;
+    padding-right: 20px;
+    font-size: 30px;
+    align-self: center;
+  }
+  .items .word p{
+    padding-bottom: 5px;
+  }
+  .boxes{
+    display: flex;
+  }
+  .boxes input{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  .boxes a{
+    text-decoration: none;
+    color: #514D59;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+  }
+  .boxes ::placeholder{
+    color: #514D59;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .boxes input{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+  }
+  .boxes button{ 
+    margin-top: 30px;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    background: #884AFF;
+  }
+  .boxes button{
+    align-self: center;
+  } 
+  .boxes button i{
+    color: white;
+    font-size: 30px;
+  }
+  .section h1{
+    color: #514D59;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    padding-bottom: 90px;
+  }
+  .section{
+    padding: 100px;
+  }
+  .card{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .card .square1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 0.5px solid rgb(61, 115, 66, 0.25);
+    background: rgb(174, 237, 180, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .square2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 0.5px solid rgb(61, 115, 66, 0.25);
+    background: rgb(242, 200, 186, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .square3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 0.5px solid rgb(61, 115, 66, 0.25);
+    background: rgb(214, 200, 241, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .square4{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 0.5px solid rgb(61, 115, 66, 0.25);
+    background: rgb(239, 234, 184, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card .content{
+    text-align: center;
+  }
+  .card .text h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .card p{
+    opacity: .5;
+  }
+  .place{
+    background-color: #eeeeee;
+  }
+  .country{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .country .temp1{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .country .temp1 .cont h3{
+    color: #514D59;
+    font-size: 50px;
+  }
+  .country .temp1 .cont{
+    padding-left:105px ;
+  }
+  .country .temp1 .cont p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .country .temp1 .cont a{
+    text-decoration: none;
+  }
+  .country .temp2{
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .country .temp2 .cont h3{
+    color: #514D59;
+    font-size: 50px;
+    font-style: normal;
+  }
+  .country .temp2 .cont{
+    padding-right:105px ;
+  }
+  .country .temp2 .cont p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .country .temp2 .cont a{
+    text-decoration: none;
+  }
+  .country .temp3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .country .temp3 .cont h3{
+    color: #514D59;
+    font-size: 50px;
+    font-style: normal;
+  }
+  .country .temp3 .cont{
+    padding-left:105px ;
+  }
+  .country .temp3 .cont p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .country .temp3 .cont a{
+    text-decoration: none;
+  }
+  .line{
+    text-align: center;
+    margin-left: 350px ;
+    margin-right: 350px ;
+    padding-top: 200px;
+    padding-bottom: 150px;
+  }
+  .line h3{
+    color: rgb(81, 77, 89);
+    font-size: 18px;
+
+    font-weight: 600;
+  }
+  .line .within h1{
+    color: rgb(81, 77, 89);
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 600;
+
+  }
+  .line .within h4{
+    color: #514D59;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 15px;
+    margin-left: 450px;
+    padding-bottom: 70px;
+  }
+  .line .font .dot{
+    gap: 100px  
+  }
+  .footer{
+    background-color: rgb(51, 51, 51);
+    color: #FAFAFA;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .image h1{
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .footer .image{
+    display: flex;
+    align-items: center;
+  }
+  .footer .socials ul li{
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 40px;
+  }
+  .footer .socials ul{
+    display: flex;
+    padding-top: 100px;
+  }
+  .footer .d1{
+    padding-top: 70px;
+  }
+  .footer .d2{
+    padding-left: 70px;
+    padding-right: 70px ;
+    padding-top: 70px;  ;
+  }
+  .footer .d2 h2{
+    font-size: 24px;
+    padding-bottom: 30px;
+    font-weight: 700;
+  }
+  .footer .d2 ul li{
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .policy{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .policy h2{
+    color: #625F67;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .policy .p2 ul{
+    color: #625F67;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+  }
+  .policy .p2 ul li{
+    margin-right: 50px;
+  }
